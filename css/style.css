@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.header, .whyme, .skills {
+  width: 100%;
+  height: 50vh; }
+
+.goodorange {
+  border-bottom: 2px solid #ff5722;
+  border-bottom-width: medium; }
+
+.goodgreen {
+  border-bottom: 2px solid #4CAF50;
+  border-bottom-width: medium; }
+
+.goodpoint {
+  border-bottom: 2px solid #BDBDBD; }
+
+.goodyellow {
+  border-bottom: 2px solid #FFFF00;
+  border-bottom-width: medium; }
+
+.header {
+  background: #F9EC31; }
+
+.whyme {
+  background: #eeeeee; }
+
+.skills {
+  background: #E0E0E0; }
+
+.goals {
+  height: 30vh;
+  background: #0067AF; }
+
+.contact {
+  height: 30vh;
+  background: #444; }
+
+.container {
+  width: 700px;
+  margin: 0 auto; }
+
+.header {
+  line-height: 60px; }
+  .header h2 {
+    width: 250px;
+    margin-top: 0;
+    font-size: 40px;
+    position: relative;
+    top: 20vh;
+    margin: 0 auto; }
+  .header p {
+    width: 604px;
+    margin: 0 auto;
+    margin-top: 9em; }
+
+.whyme {
+  font-weight: 300; }
+  .whyme .container h4 {
+    width: 63px;
+    margin-top: 0;
+    position: relative;
+    top: 4em;
+    margin: 0 auto;
+    line-height: 20px; }
+  .whyme .container p {
+    width: 435px;
+    position: relative;
+    top: 6em;
+    margin: 0 auto;
+    line-height: 25px; }
+
+.skills .container h4 {
+  width: 45px;
+  margin-top: 0;
+  position: relative;
+  top: 1em;
+  margin: 0 auto;
+  line-height: 25px; }
+.skills .content h5 {
+  width: 30px;
+  position: relative;
+  top: 3em;
+  margin: 0 auto;
+  line-height: 35px; }
+
+.goals {
+  color: #eeeeee; }
+  .goals .container h4 {
+    width: 46px;
+    margin-top: 0;
+    position: relative;
+    top: 3em;
+    margin: 0 auto; }
+  .goals .container p {
+    width: 125px;
+    position: relative;
+    top: 5em;
+    margin: 0 auto;
+    line-height: 25px; }
+
+.contact {
+  color: #eeeeee; }
+  .contact h4 {
+    width: 62px;
+    margin-top: 0;
+    position: relative;
+    top: 2em;
+    margin: 0 auto; }
+  .contact p {
+    width: 100px;
+    margin-top: 0;
+    position: relative;
+    top: 4em;
+    margin: 0 auto;
+    line-height: 30px; }
+
+.footer p {
+  width: 126px;
+  margin-top: 0;
+  position: relative;
+  top: 1em;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */

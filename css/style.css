@@ -1,11 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  -webkit-margin: 0;
+  -moz-margin: 0;
+  -o-margin: 0;
+  -ms-margin: 0;
+  -webkit-padding: 0;
+  -moz-padding: 0;
+  -o-padding: 0;
+  -ms-padding: 0; }
 
 .header, .whyme, .skills {
   width: 100%;
-  height: 50vh; }
+  height: 20em;
+  -webkit-width: 100%;
+  -moz-width: 100%;
+  -o-width: 100%;
+  -ms-width: 100%;
+  -webkit-height: 20em;
+  -moz-height: 20em;
+  -o-height: 20em;
+  -ms-height: 20em; }
 
 .goodorange {
   border-bottom: 2px solid #ff5722;
@@ -60,11 +76,11 @@ html, body {
   background: #E0E0E0; }
 
 .goals {
-  height: 30vh;
+  height: 10em;
   background: #0067AF; }
 
 .contact {
-  height: 30vh;
+  height: 15em;
   background: #444; }
 
 .container {

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <div class="header">
+      <div class="container">
+        <span class="name"><h2 class="goodorange">Arpit Pandey</h2>
+        <p class="goodorange" style="line-height: 30px">Is a web developer who is passionate about bringing the ideas of many
+        into the reality</p></span>
+      </div>
+    </div>
+
+    <div class="whyme">
+      <div class="container">
+        <span class="content">
+          <h4 class="goodgreen">Why Me</h4>
+          <p>I'm a person you would <span class="goodpoint">love to meet</span>, i have working experience
+            with <span class="goodpoint">git</span>, i know what to search and where to search. I love working
+            with <span class="goodpoint">teams and managing</span> them. I also <span class="goodpoint">write backend codes</span>
+           ,and the most important thing "<span class="goodpoint">I would love to work with you and for you.</span>"</p>
+        </span>
+      </div>
+    </div>
+
+    <div class="skills">
+      <div class="container"><h4 class="goodgreen">Skills</h4>
+        <span class="content">
+          <h5>Php</h5>
+          <h5 style="width : 46px">Python</h5>
+          <h5>Html</h5>
+          <h5>Css</h5>
+          <h5>Sass</h5>
+          <h5>Java</h5>
+          <h5 style="width : 66px">javaScript</h5>
+        </span>
+      </div>
+    </div>
+
+    <div class="goals">
+      <div class="container"><h4 class="goodyellow">Goals</h4>
+        <span class="content"><p>Bringing Smiles :)</p></span>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container"><h4 class="goodyellow">Contact</h4>
+        <span class="content">
+          <p style="width: 195px">arpit.pandey05@gmail.com</p>
+          <p style="width : 5px">-</p>
+          <p style="width: 210px">arpit.pandey05@hotmail.com</p>
+        </span>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <span class="content">
+          <p>Copyright @ 2016</p>
+        </span>
+      </div>
+    </div>
+</body>
+</html>

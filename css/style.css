@@ -9,18 +9,46 @@ html, body {
 
 .goodorange {
   border-bottom: 2px solid #ff5722;
-  border-bottom-width: medium; }
+  border-bottom-width: medium;
+  -webkit-border-bottom: 2px solid #ff5722;
+  -moz-border-bottom: 2px solid #ff5722;
+  -o-border-bottom: 2px solid #ff5722;
+  -ms-border-bottom: 2px solid #ff5722;
+  -webkit-border-bottom-width: medium;
+  -moz-border-bottom-width: medium;
+  -o-border-bottom-width: medium;
+  -ms-border-bottom-width: medium; }
 
 .goodgreen {
   border-bottom: 2px solid #4CAF50;
-  border-bottom-width: medium; }
+  border-bottom-width: medium;
+  -webkit-border-bottom: 2px solid #4CAF50;
+  -moz-border-bottom: 2px solid #4CAF50;
+  -o-border-bottom: 2px solid #4CAF50;
+  -ms-border-bottom: 2px solid #4CAF50;
+  -webkit-border-bottom-width: medium;
+  -moz-border-bottom-width: medium;
+  -o-border-bottom-width: medium;
+  -ms-border-bottom-width: medium; }
 
 .goodpoint {
-  border-bottom: 2px solid #BDBDBD; }
+  border-bottom: 2px solid #BDBDBD;
+  -webkit-border-bottom: 2px solid #BDBDBD;
+  -moz-border-bottom: 2px solid #BDBDBD;
+  -o-border-bottom: 2px solid #BDBDBD;
+  -ms-border-bottom: 2px solid #BDBDBD; }
 
 .goodyellow {
   border-bottom: 2px solid #FFFF00;
-  border-bottom-width: medium; }
+  border-bottom-width: medium;
+  -webkit-border-bottom: 2px solid #FFFF00;
+  -moz-border-bottom: 2px solid #FFFF00;
+  -o-border-bottom: 2px solid #FFFF00;
+  -ms-border-bottom: 2px solid #FFFF00;
+  -webkit-border-bottom-width: medium;
+  -moz-border-bottom-width: medium;
+  -o-border-bottom-width: medium;
+  -ms-border-bottom-width: medium; }
 
 .header {
   background: #F9EC31; }

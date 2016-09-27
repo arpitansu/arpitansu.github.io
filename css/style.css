@@ -1,172 +1,43 @@
-html, body {
+a {
+  text-decoration: none;
+  target: _blank; }
+
+.info-self ul, .info-skill ul, .info-contact ul {
   margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-margin: 0;
-  -moz-margin: 0;
-  -o-margin: 0;
-  -ms-margin: 0;
-  -webkit-padding: 0;
-  -moz-padding: 0;
-  -o-padding: 0;
-  -ms-padding: 0; }
+  padding: 10px; }
+.info-self li, .info-skill li, .info-contact li {
+  list-style: none; }
 
-.header, .whyme, .skills {
-  width: 100%;
-  height: 20em;
-  -webkit-width: 100%;
-  -moz-width: 100%;
-  -o-width: 100%;
-  -ms-width: 100%;
-  -webkit-height: 20em;
-  -moz-height: 20em;
-  -o-height: 20em;
-  -ms-height: 20em; }
+.info-contact {
+  line-height: 30px;
+  font-weight: bold; }
 
-.goodorange {
-  border-bottom: 2px solid #ff5722;
-  border-bottom-width: medium;
-  -webkit-border-bottom: 2px solid #ff5722;
-  -moz-border-bottom: 2px solid #ff5722;
-  -o-border-bottom: 2px solid #ff5722;
-  -ms-border-bottom: 2px solid #ff5722;
-  -webkit-border-bottom-width: medium;
-  -moz-border-bottom-width: medium;
-  -o-border-bottom-width: medium;
-  -ms-border-bottom-width: medium; }
+.info-data {
+  margin-top: 50px; }
 
-.goodgreen {
-  border-bottom: 2px solid #4CAF50;
-  border-bottom-width: medium;
-  -webkit-border-bottom: 2px solid #4CAF50;
-  -moz-border-bottom: 2px solid #4CAF50;
-  -o-border-bottom: 2px solid #4CAF50;
-  -ms-border-bottom: 2px solid #4CAF50;
-  -webkit-border-bottom-width: medium;
-  -moz-border-bottom-width: medium;
-  -o-border-bottom-width: medium;
-  -ms-border-bottom-width: medium; }
+.subject {
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center; }
 
-.goodpoint {
-  border-bottom: 2px solid #BDBDBD;
-  -webkit-border-bottom: 2px solid #BDBDBD;
-  -moz-border-bottom: 2px solid #BDBDBD;
-  -o-border-bottom: 2px solid #BDBDBD;
-  -ms-border-bottom: 2px solid #BDBDBD; }
-
-.goodyellow {
-  border-bottom: 2px solid #FFFF00;
-  border-bottom-width: medium;
-  -webkit-border-bottom: 2px solid #FFFF00;
-  -moz-border-bottom: 2px solid #FFFF00;
-  -o-border-bottom: 2px solid #FFFF00;
-  -ms-border-bottom: 2px solid #FFFF00;
-  -webkit-border-bottom-width: medium;
-  -moz-border-bottom-width: medium;
-  -o-border-bottom-width: medium;
-  -ms-border-bottom-width: medium; }
-
-.header {
-  background: #F9EC31; }
-
-.whyme {
-  background: #eeeeee; }
-
-.skills {
-  background: #E0E0E0; }
-
-.goals {
-  height: 10em;
-  background: #0067AF; }
-
-.contact {
-  height: 15em;
-  background: #444; }
-
-.container {
-  width: 700px;
-  margin: 0 auto; }
-
-.header {
-  line-height: 60px; }
-  .header h2 {
-    width: 6.22em;
-    margin-top: 0;
-    font-size: 40px;
-    position: relative;
-    top: 2em;
-    margin: 0 auto; }
-  .header p {
-    width: 38em;
+.content {
+  border-radius: 3px;
+  text-align: justify; }
+  .content p {
+    padding: 10px; }
+  .content img {
+    width: 200px;
     margin: 0 auto;
-    margin-top: 8em; }
+    padding-top: 10px; }
 
-.whyme {
-  font-weight: 300; }
-  .whyme .container h4 {
-    width: 4em;
-    margin-top: 0;
-    position: relative;
-    top: 4em;
-    margin: 0 auto;
-    line-height: 20px; }
-  .whyme .container p {
-    width: 435px;
-    position: relative;
-    top: 6em;
-    margin: 0 auto;
-    line-height: 25px; }
+@media (max-width: 768px) {
+  .banner {
+    text-align: center; }
 
-.skills .container h4 {
-  width: 2.8em;
-  margin-top: 0;
-  position: relative;
-  top: 1em;
-  margin: 0 auto;
-  line-height: 25px; }
-.skills .content h5 {
-  width: 30px;
-  position: relative;
-  top: 3em;
-  margin: 0 auto;
-  line-height: 35px; }
+  .info-skill {
+    margin-top: 10px; }
 
-.goals {
-  color: #eeeeee; }
-  .goals .container h4 {
-    width: 2.9em;
-    margin-top: 0;
-    position: relative;
-    top: 3em;
-    margin: 0 auto; }
-  .goals .container p {
-    width: 125px;
-    position: relative;
-    top: 5em;
-    margin: 0 auto;
-    line-height: 25px; }
-
-.contact {
-  color: #eeeeee; }
-  .contact h4 {
-    width: 3.9em;
-    margin-top: 0;
-    position: relative;
-    top: 2em;
-    margin: 0 auto; }
-  .contact p {
-    width: 100px;
-    margin-top: 0;
-    position: relative;
-    top: 4em;
-    margin: 0 auto;
-    line-height: 30px; }
-
-.footer p {
-  width: 126px;
-  margin-top: 0;
-  position: relative;
-  top: 1em;
-  margin: 0 auto; }
+  .info-contact {
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
